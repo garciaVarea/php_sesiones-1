@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario PHP</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+<form action="almacenar.php" method="post" enctype="multipart/form-data">
+    <label for="correo">Correo:</label>
+    <input type="email" name="correo" required><br>
+
+    <label for="contraseña">Contraseña:</label>
+    <input type="password" name="contraseña" required><br>
+
+    <label for="archivo_jpg">Archivo JPG:</label>
+    <input type="file" name="archivo_jpg" accept="image/jpeg"><br>
+
+    <label for="archivo_pdf">Archivo PDF:</label>
+    <input type="file" name="archivo_pdf" accept="application/pdf"><br>
+
+    <input type="submit" value="Enviar">
+</form>
+</body>
+</html>
